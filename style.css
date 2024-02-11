@@ -1,0 +1,11 @@
+#grid-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid-item {
+  width: 16px;
+  height: 16px;
+  border: 1px solid black; /* Adjust as needed, but remember it affects the overall dimensions */
+  box-sizing: border-box;
+}
